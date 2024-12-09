@@ -1,0 +1,23 @@
+.reservations__title {
+  color: var(--rose);
+}
+
+.reservatoins__contente--item {
+  background-color: var(--black);
+  border-radius: 8px;
+  color: var(--white);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 10px;
+  /* justify-content: ; */
+}
+
+@media (width >= 768px) {
+  .reservatoins__contente--item {
+    flex-direction: row;
+    width: 400px;
+  }
+}

@@ -1,0 +1,7 @@
+.background {
+  background: linear-gradient(to right, var(--dark-wine), var(--dark-black));
+  min-height: 100vh;
+  /* height: auto; */
+  display: flex;
+  flex-direction: column;
+}

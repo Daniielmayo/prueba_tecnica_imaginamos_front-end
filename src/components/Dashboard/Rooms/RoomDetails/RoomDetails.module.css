@@ -1,0 +1,46 @@
+.RoomDeatils__container--top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.RoomDeails__title {
+  color: var(--rose);
+}
+
+.RoomDetails__reservations {
+  color: var(--white);
+  margin-top: 20px;
+}
+
+.RoomDetails__dateGroup {
+  color: var(--rose);
+
+  margin-bottom: 20px;
+}
+
+.roomDetails__time{
+  color: var(--white);
+}
+.RoomDetails__dateGroup h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.RoomDetails__dateGroup ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.RoomDetails__dateGroup li {
+  margin-bottom: 10px;
+}
+
+.RoomDetails__dateGroup li p {
+  margin: 5px 0;
+}
+
+.RoomDeails__title {
+  font-size: 24px;
+  font-weight: bold;
+}

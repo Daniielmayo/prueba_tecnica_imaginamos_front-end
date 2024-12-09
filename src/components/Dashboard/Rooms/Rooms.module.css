@@ -1,0 +1,21 @@
+.rooms__title {
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+}
+
+.rooms__content-card {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (width >= 768px) {
+  .rooms__content-card {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+  }
+}

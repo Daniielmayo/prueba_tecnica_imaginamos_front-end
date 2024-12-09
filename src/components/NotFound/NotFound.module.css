@@ -1,0 +1,49 @@
+.notfound__background {
+  height: 100vh;
+  background: linear-gradient(to right, var(--dark-wine), var(--dark-black));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.notfound__info--error {
+  color: var(--rose);
+  font-weight: bold;
+  font-size: 150px;
+}
+
+.notfund__info--title,
+.notfound__info--paragraph {
+  color: var(--white);
+  width: 300px;
+}
+
+.notfund__info--title {
+  font-size: 32px;
+}
+
+.notfound__info--paragraph {
+  font-size: 16px;
+}
+
+.notfound__button {
+  width: 200px;
+}
+
+@media (width >= 768px) {
+  .notfound__background {
+    gap: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .notfound__info--paragraph {
+    width: 500px;
+  }
+}
